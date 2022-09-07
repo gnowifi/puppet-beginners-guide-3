@@ -1,5 +1,6 @@
 #!/bin/bash
-# source /etc/lsb-release  Not needed anymore as we're installing a specific version of Puppet from the book
+# source /etc/lsb-release
+# Not needed anymore as we're installing a specific version of Puppet for the purposes of the book
 wget https://apt.puppetlabs.com/puppet5-release-bionic.deb
 dpkg -i puppet5-release-bionic.deb
 apt-get update
